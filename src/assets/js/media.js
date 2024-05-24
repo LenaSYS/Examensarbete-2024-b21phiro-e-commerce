@@ -1,4 +1,5 @@
 import types from "./types.js";
+import * as THREE from 'three';
 
 export default(type, cb) => {
     if (type === types.three_d) {
