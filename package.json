@@ -1,7 +1,7 @@
 {
   "name": "thesis-2024-e-commerce",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
