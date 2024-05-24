@@ -2,9 +2,182 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="b21phiro">
     <title>@b21phiro | E-commerce</title>
 </head>
 <body>
+    <div id="root">
+        <header class="header">
+            <div class="root-wrapper">
+                <div>
+                    <a class="logotype" href="/" title="CupyShino">CapuShino</a>
+                </div>
+                <div class="header-list">
+                    <nav class="desktop-navigation header-list">
+                        <a class="header-link" href="#menu" title="Menu">Our menu</a>
+                        <a class="header-link" href="#about" title="About us">About</a>
+                        <a class="header-link" href="#coffee" title="Our coffee">Our coffee</a>
+                        <a class="header-link" href="#contact" title="Contact">Contact</a>
+                    </nav>
+                    <ul>
+                        <li>
+                            <button id="menu" class="button menu-button">
+                                <!-- Icon available at https://feathericons.com -->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                     class="feather feather-menu">
+                                    <line x1="3" y1="12" x2="21" y2="12"/>
+                                    <line x1="3" y1="6" x2="21" y2="6"/>
+                                    <line x1="3" y1="18" x2="21" y2="18"/>
+                                </svg>
+                            </button>
+                            <button id="search" class="button header-button">
+                                <!-- Icon available at https://feathericons.com -->
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     viewBox="0 0 24 24"
+                                     class="feather feather-search">
+                                    <circle cx="11" cy="11" r="8"/>
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                                </svg>
+                            </button>
+                            <button id="cart" class="button header-button">
+                                <!-- Icon available at https://feathericons.com -->
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     viewBox="0 0 24 24"
+                                     class="feather feather-shopping-cart">
+                                    <circle cx="9" cy="21" r="1"/>
+                                    <circle cx="20" cy="21" r="1"/>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+                                </svg>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div id="hero">
+                <section class="page-section">
+                    <h1 class="title">Our menu</h1>
+                    <p class="text">
+                        Welcome to CapuShino, your cozy neighborhood coffee shop! We take pride in offering a
+                        delightful selection of beverages and treats to brighten your day. Whether you're here
+                        for a quick pick-me-up or a leisurely break, we've got something for everyone.
+                    </p>
+                </section>
+            </div>
+            <div class="page-wrapper">
+                <section class="page-section">
+                    <h2 class="title">Drinks</h2>
+                    <ul id="products" class="grid">
+                        <li>
+                            <article class="product">
+                                <a href="#product" title="View product"></a>
+                                <figure></figure>
+                                <section class="product-section">
+                                    <h4>Lorem Ipsum</h4>
+                                    <p>9.99 SEK</p>
+                                    <button class="product-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 24 24"
+                                             class="feather feather-plus">
+                                            <line x1="12" y1="5" x2="12" y2="19"/>
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                        </svg>
+                                        <span>Add</span>
+                                    </button>
+                                </section>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="product">
+                                <a href="#product" title="View product"></a>
+                                <figure></figure>
+                                <section class="product-section">
+                                    <h4>Lorem Ipsum</h4>
+                                    <p>9.99 SEK</p>
+                                    <button class="product-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 24 24"
+                                             class="feather feather-plus">
+                                            <line x1="12" y1="5" x2="12" y2="19"/>
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                        </svg>
+                                        <span>Add</span>
+                                    </button>
+                                </section>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="product">
+                                <a href="#product" title="View product"></a>
+                                <figure></figure>
+                                <section class="product-section">
+                                    <h4>Lorem Ipsum</h4>
+                                    <p>9.99 SEK</p>
+                                    <button class="product-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 24 24"
+                                             class="feather feather-plus">
+                                            <line x1="12" y1="5" x2="12" y2="19"/>
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                        </svg>
+                                        <span>Add</span>
+                                    </button>
+                                </section>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="product">
+                                <a href="#product" title="View product"></a>
+                                <figure></figure>
+                                <section class="product-section">
+                                    <h4>Lorem Ipsum</h4>
+                                    <p>9.99 SEK</p>
+                                    <button class="product-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 24 24"
+                                             class="feather feather-plus">
+                                            <line x1="12" y1="5" x2="12" y2="19"/>
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                        </svg>
+                                        <span>Add</span>
+                                    </button>
+                                </section>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="product">
+                                <a href="#product" title="View product"></a>
+                                <figure></figure>
+                                <section class="product-section">
+                                    <h4>Lorem Ipsum</h4>
+                                    <p>9.99 SEK</p>
+                                    <button class="product-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             viewBox="0 0 24 24"
+                                             class="feather feather-plus">
+                                            <line x1="12" y1="5" x2="12" y2="19"/>
+                                            <line x1="5" y1="12" x2="19" y2="12"/>
+                                        </svg>
+                                        <span>Add</span>
+                                    </button>
+                                </section>
+                            </article>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="footer-credits">Made by
+                <a href="https://github.com/b21phiro/thesis-2024-e-commerce"
+                   title="Link to the GitHub repository by @b21phiro">
+                    @b21phiro 2024
+                </a>
+            </p>
+        </footer>
+    </div>
     <script src="./main.js" type="module"></script>
 </body>
 </html>

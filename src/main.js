@@ -1,1 +1,1 @@
-alert('Hello world!');
+import './assets/css/style.css'; // Go with style ;)
